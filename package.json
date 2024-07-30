@@ -10,11 +10,11 @@
     "url": "https://github.com/catbaron0/homebridge-plugin-sensors.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/homebridge-plugin-sensors/issues"
+    "url": "https://github.com/catbaron0/homebridge-plugin-sensors/issues"
   },
   "engines": {
-    "node": "^18.17.0 || ^20.9.0",
-    "homebridge": "^1.6.0"
+    "node": "^18.15.0 || ^20.9.0",
+    "homebridge": "^1.8.0"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "homebridge-plugin"
   ],
   "devDependencies": {
-    "@types/node": "^18.16.20",
+    "@types/node": "^15.9.20",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.45.0",

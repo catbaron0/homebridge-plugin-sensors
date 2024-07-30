@@ -1,6 +1,6 @@
 {
   "pluginAlias": "Sensors",
-  "pluginType": "platform",
+  "pluginType": "accessories",
   "singular": true,
   "schema": {
     "type": "object",

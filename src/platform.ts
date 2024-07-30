@@ -55,8 +55,8 @@ export class SensorsPlatform implements DynamicPlatformPlugin {
     // A real plugin you would discover accessories from the local network, cloud services
     // or a user-defined array in the platform config.
     const sensors = {
-      sensorId: 'tempe-sensor-id',
-      displayName: 'Temperature Sensor',
+      sensorId: 'sensor-id',
+      displayName: 'Sensors',
     };
 
     // Init tempe-sensor

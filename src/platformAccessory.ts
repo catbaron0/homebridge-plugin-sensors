@@ -36,9 +36,9 @@ export class Sensors {
 
     // set the service name, this is what is displayed as the default name on the Home app
     // in this example we are using the name we stored in the `accessory.context` in the `discoverDevices` method.
-    this.tempeService.setCharacteristic(this.platform.Characteristic.Name, accessory.context.device.displayName);
-    this.tempeService.setCharacteristic(this.platform.Characteristic.Name, accessory.context.device.displayName);
-    this.tempeService.setCharacteristic(this.platform.Characteristic.Name, accessory.context.device.displayName);
+    this.tempeService.setCharacteristic(this.platform.Characteristic.Name, "Temperature Sensor");
+    this.humiService.setCharacteristic(this.platform.Characteristic.Name, "Humidity Sensor");
+    this.lightService.setCharacteristic(this.platform.Characteristic.Name, "Light Sensor");
 
     // each service must implement at-minimum the "required characteristics" for the given service type
     // see https://developers.homebridge.io/#/service/Lightbulb
